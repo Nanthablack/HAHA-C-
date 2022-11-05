@@ -1,0 +1,2 @@
+#include <bits/stdc++.h>
+using namespace std;const int ans[] = {0,2, 6, 20, 70, 252, 924, 3432, 12870, 48620, 184756, 705432, 2704156, 10400600};int main(){int n; cin >> n; cout << (n&1?ans[(n+1)/2]:ans[(n+1)/2]);return 0;}
